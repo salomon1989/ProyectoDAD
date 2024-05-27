@@ -1,1 +1,4 @@
+server:
+   port: ${PORT:8866}
+message: Configuracion de Categoria en el servidor levantado!
 
