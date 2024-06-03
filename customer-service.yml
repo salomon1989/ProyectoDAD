@@ -1,6 +1,6 @@
 server:
    port: ${PORT:8869}
-message: Configuracion de Cajero en el servidor levantado!
+message: Configuracion de Customer en el servidor levantado!
 spring:
   datasource:
      driver-class-name: com.mysql.cj.jdbc.Driver
