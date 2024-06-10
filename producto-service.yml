@@ -4,9 +4,9 @@ message: Configuracion de producto en el servidor levantado!
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    password:
     url: jdbc:mysql://localhost:3306/dbcrudcloud
     username: root
+    password:
    jpa:
      hibernate:
        ddl-auto: update
