@@ -14,6 +14,6 @@ spring:
        database-platform: org.hibernate.dialect.MySQLDialect
        application:
          name: producto-service
-   cloud:
-     config:
-       uri: http://localhost:8860
+       cloud: 
+        config:
+         uri: http://localhost:8860
