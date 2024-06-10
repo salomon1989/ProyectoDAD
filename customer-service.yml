@@ -13,6 +13,6 @@ spring:
         database-platform: org.hibernate.dialect.MySQLDialect
    cloud:
      config:
-       uri:  http://localhost:8860
+       uri: http://localhost:8860
         
    
