@@ -7,12 +7,10 @@ spring:
     password: 
     url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/dbcrudcloud
     username: root
-   jpa:
-     hibernate:
-       ddl-auto: update
-       database-platform: org.hibernate.dialect.MySQLDialect
-       application:
-         name: producto-service
-       cloud: 
-        config:
-         uri: http://localhost:8860
+  jpa:
+    hibernate:
+      ddl-auto: update
+      database-platform: org.hibernate.dialect.MySQLDialect
+  cloud:
+    config:
+      uri: http://localhost:8080
