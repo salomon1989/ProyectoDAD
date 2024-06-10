@@ -10,9 +10,10 @@ spring:
    jpa:
      hibernate:
        ddl-auto: update
+       show-sql: true
        database-platform: org.hibernate.dialect.MySQLDialect
        application:
-  name: producto-service
+         name: producto-service
    cloud:
      config:
        uri: http://localhost:8860
