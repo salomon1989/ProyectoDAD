@@ -2,7 +2,7 @@ server:
   port: ${PORT:8850}
 eureka:
   client:
-    fetch-registry: false
+#    fetch-registry: false
     register-with-eureka: true
     serviceurl:
       defaultZone: http://localhost:8850/eureka/
