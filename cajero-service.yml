@@ -16,7 +16,7 @@ spring:
       uri: http://localhost:8080
 eureka:
   client:
- #   fetch-registry: false
+ #  fetch-registry: false
     register-with-eureka: true
     serviceurl:
       defaultZone: http://localhost:8850/eureka/
