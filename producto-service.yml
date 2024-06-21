@@ -1,6 +1,10 @@
 server:
    port: ${PORT:8864}
 message: Configuracion de producto en el servidor levantado!
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -14,7 +18,3 @@ spring:
   cloud:
     config:
       uri: http://localhost:8080
-eureka:
-  client:
-    fetch-registry: false
-    register-with-eureka: false
