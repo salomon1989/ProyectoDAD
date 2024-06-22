@@ -4,8 +4,8 @@ message: Configuracion de producto en el servidor levantado!
 
 eureka:
  client:
+ #fetch-registry: false
  register-with-eureka: true
-#fetch-registry: false
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
