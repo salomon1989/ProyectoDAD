@@ -16,5 +16,5 @@ spring:
       uri: http://localhost:8080
 eureka:
   client:
-    fetch-registry: false
+ #  fetch-registry: false
     register-with-eureka: false
