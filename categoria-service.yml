@@ -4,8 +4,8 @@ message: Configuracion de Categoria en el servidor levantado!
 
        eureka:
          client:
-  #      fetch-registry: false 
-         register-with-eureka: true
+  #       fetch-registry: false 
+          register-with-eureka: true
  
 spring:
   datasource:
