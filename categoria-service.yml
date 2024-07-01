@@ -7,8 +7,6 @@ eureka:
     serviceurl:
       defaultZone: http://localhost:8850/eureka/
 message: Configuracion de Categoria en el servidor levantado!
-
- 
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
