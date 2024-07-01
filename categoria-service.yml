@@ -6,7 +6,7 @@ eureka:
   # fetch-registry: false 
     register-with-eureka: true
     serviceurl:
-      defaultZone:
+      defaultZone: http://localhost:8850/eureka/
  
 spring:
   datasource:
