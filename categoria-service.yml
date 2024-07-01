@@ -5,6 +5,7 @@ eureka:
   client:
   # fetch-registry: false 
     register-with-eureka: true
+    serviceurl:
  
 spring:
   datasource:
