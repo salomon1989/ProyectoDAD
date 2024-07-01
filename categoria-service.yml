@@ -1,12 +1,13 @@
 server:
    port: ${PORT:8867}
-message: Configuracion de Categoria en el servidor levantado!
 eureka:
   client:
   # fetch-registry: false 
     register-with-eureka: true
     serviceurl:
       defaultZone: http://localhost:8850/eureka/
+message: Configuracion de Categoria en el servidor levantado!
+
  
 spring:
   datasource:
